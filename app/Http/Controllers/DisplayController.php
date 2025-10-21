@@ -23,7 +23,7 @@ class DisplayController extends Controller
     // Halaman hari: selalu ruangan ID 1
     public function showDay($hari)
     {
-        $ruanganId = 1;
+        $ruanganId = 2;
         $hari = ucfirst(strtolower($hari));
         if (!in_array($hari, ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'])) {
             abort(404);

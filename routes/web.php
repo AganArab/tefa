@@ -15,7 +15,7 @@ Route::get('/dashboard', [AuthController::class, 'dashboard'])->name('dashboard'
 Route::get('/logout', [AuthController::class, 'logout']);
 
 Route::get('/', [DisplayController::class, 'index'])->name('welcome');
-Route::get('/hari/{hari}', [DisplayController::class, 'showDay'])->name('jadwal.hari');
+Route::get('/hari/{hari}', [DisplayController::class, 'showDay'])->name('display.hari');
 
 // Route untuk CRUD Data Master
 Route::resource('guru', GuruController::class);

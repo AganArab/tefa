@@ -102,11 +102,11 @@ if (fadeItems.length > 0) {
 // ✅ Navigasi ke route Laravel (tanpa file statis)
 const dayButtons = document.querySelectorAll(".day-btn");
 const hariMap = {
-  "Senin": "/hari/senin",
-  "Selasa": "/hari/selasa",
-  "Rabu": "/hari/rabu",
-  "Kamis": "/hari/kamis",
-  "Jum'at": "/hari/jumat"
+  "Senin": "/hari/Senin",
+  "Selasa": "/hari/Selasa",
+  "Rabu": "/hari/Rabu",
+  "Kamis": "/hari/Kamis",
+  "Jum'at": "/hari/Jumat"
 };
 dayButtons.forEach(btn => {
   btn.addEventListener("click", () => {
